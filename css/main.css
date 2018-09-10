@@ -118,6 +118,11 @@ div.col-md-6.right{
   color:lightgray;
 }
 
+
+.test{
+  margin-top: 30px;
+}
+
 .form{
   text-align: center;
   color: white;
@@ -130,15 +135,9 @@ div.col-md-6.right{
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-
-.test{
-  margin-top: 30px;
-}
-
 .carousel-inner{
   background-color: #fff;
 }
-
 .grid-item{
   border: 1px solid black;
 }
@@ -239,4 +238,47 @@ div.container-fluid{
 .navbar-right{
   margin-top: 20px;
   margin-right: 20px;
+}
+
+.caro-section{
+  max-height: 200px;
+  padding: 20px;
+}
+
+.carousel{
+  border: 2px solid black;
+  width: 80%;
+  margin: auto;
+}
+
+.carousel .carousel-control{
+  background-image: none;
+}
+
+.carousel .carousel-control i{
+  border: 2px solid black;
+  font-size: 2em;
+  color: black;
+  padding: 10px;
+  background: white;
+}
+
+a.left.carousel-control{
+  transform: translate(-70px,30px);
+  opacity: 1;
+}
+a.right.carousel-control{
+  transform: translate(70px,30px);
+  opacity: 1;
+}
+
+.caroItem{
+  margin: 0 2em;
+  width:100px;
+  height:100px;
+  display:inline;
+}
+
+.carousel-inner>.item>img{
+  display: inline;
 }
